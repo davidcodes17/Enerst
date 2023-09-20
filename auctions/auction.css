@@ -1,0 +1,71 @@
+.auctions{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.auction-product{
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    width: fit-content;
+    transition: all .4s;
+    cursor: pointer;
+}
+.auction-product:hover{
+    transform: scale(0.9);
+    transition: all .4s;
+}
+.auction-img{
+    width: 100%;
+    border-radius: 20px;
+}
+.auction-content{
+    padding: 10px;
+}
+.auction-product-name{
+    font-size: 30px;
+}
+.auction-price{
+    font-size: 25px;
+}
+.place-bid{
+    padding: 15px;
+    border-radius: 10px;
+    border: 0;
+    margin: 10px 0px;
+    cursor: pointer;
+    background: rgb(15, 164, 139);
+    color: #fff;
+    font-weight: 700;
+    width: 100%;
+    transition: all .4s;
+}
+.place-bid:hover{
+    background: #000;
+    transition: all .4s;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    /* padding: 20px; */
+}
+.search > input{
+    padding: 20px;
+    font-size: 20px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-right: 0;
+    outline: none;
+    border-radius: 10px 0px 0px 10px;
+}
+.btn-search{
+    font-size: 20px;
+    padding: 0px 30px;
+    border-radius: 0px 10px 10px 0px;
+    background: rgb(15, 164, 139);
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+}
